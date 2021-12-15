@@ -1,0 +1,12 @@
+.container-header {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  background-color: blueviolet;
+  height: 2rem;
+  justify-content: center;
+}
+
+.list-container-header {
+  display: flex;
+}

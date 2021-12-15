@@ -1,0 +1,15 @@
+.container-footer {
+  display: flex;
+  background-color: blueviolet;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 88.5%
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+}
