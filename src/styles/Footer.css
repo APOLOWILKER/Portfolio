@@ -1,15 +1,22 @@
 .container-footer {
   display: flex;
-  background-color: blueviolet;
+  background-color: rgb(70, 172, 172);
   align-items: center;
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
   position: fixed;
   width: 100%;
-  top: 88.5%
+  bottom:0;
+  padding: 0.5rem;
 }
 
 .list-container {
   display: flex;
   align-items: center;
+  background-color: rgb(70, 172, 172);
+}
+
+.item-footer {
+  background-color: rgb(70, 172, 172);
+  margin: 0.3rem;
 }

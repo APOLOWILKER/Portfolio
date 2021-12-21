@@ -1,0 +1,22 @@
+.title-page {
+  color: rgb(255, 254, 255);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.foto-perfil {
+  display: flex;;
+  justify-content: center;
+  padding: 1rem;
+}
+
+div .sub-title {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem auto;
+}
+
+.sub-title {
+  color: white;
+}

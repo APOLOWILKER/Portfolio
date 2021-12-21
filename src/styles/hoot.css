@@ -6,3 +6,7 @@
   box-sizing: content-box;
   text-decoration: none;
 }
+
+html {
+  background-color: rgb(15, 15, 15);
+}
