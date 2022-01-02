@@ -3,21 +3,20 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import '../styles/Home.css';
 import apoloImg from '../images/myPicture.svg';
-import CardTec from '../components/CardTec';
 
 
 function Home() {
   return (
     <>
     <Header/>
-    <h1 className='title-page'>APOLO WILKER</h1>
     <div className='foto-perfil'>
     <img src={apoloImg} alt="Foto Apolo Wilker" />
     </div>
     <div>
-      <h2 className='sub-title'>TECNOLOGIAS & FERRAMENTAS</h2>
+      <h1 className='title-page'>APOLO WILKER</h1>
+      <p>Um advogado que resolveu mudar de carreira aos 28 anos de idade, por ter se frustrado demais com a carreira.Escolhi a escola de programação trybe para isso, e nela aprendi todas essas tecnologias e me tornei um full-stack.</p>
     </div>
-    <CardTec />
+    
     <Footer />
     </>
   );

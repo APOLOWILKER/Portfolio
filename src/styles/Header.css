@@ -2,21 +2,23 @@
   align-content: center;
   align-items: center;
   display: flex;
-  background-color: rgb(70, 172, 172);
-  height: 2rem;
+  background-color: rgb(242, 174, 58);
+  height: 3rem;
   justify-content: center;
+  border-radius: 0 0 40px 40px;
 }
 
 .list-container-header {
   display: flex;
-  color: white;
+  color: rgb(44, 82, 136);
 }
 
 .item-header {
-  color: aliceblue;
+  color: rgb(44, 82, 136);
   text-decoration: none;
   padding: 0 1rem;
-  background-color: rgb(70, 172, 172);
+  font-weight: bolder;
+  /* background-color: rgb(70, 172, 172); */
 }
 
 .item-header:hover {
