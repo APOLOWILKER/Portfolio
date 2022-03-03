@@ -14,7 +14,7 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.2"
   },
-  "homepage": "https://apolowilker.github.io/",
+  "homepage": "https://apolowilker.github.io/apolo-wilker.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
