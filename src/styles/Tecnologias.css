@@ -4,6 +4,7 @@
 }
 
 .container-tecnologias-screen {
+  grid: auto-flow / 1fr;
   background-color: var(--cod-gray);
   top: 150px;
   position: relative;

@@ -5,7 +5,7 @@
   align-content: center;
   justify-content: space-around;
   position: fixed;
-  width: 97.5%;
+  width: 100vw;
   bottom:0;
   padding: 0.5rem;
   height: 4rem;
