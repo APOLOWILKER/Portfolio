@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/Portifolio-React/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<Tecnologias />} />
       <Route path="*" element={<NotFound/>} />
