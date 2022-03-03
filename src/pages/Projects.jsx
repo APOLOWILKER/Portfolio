@@ -1,6 +1,8 @@
 import React from 'react';
 import pokemonBattle from '../images/Pokemon-battle.png';
 import countdown from '../images/Countdown.png';
+import memorygame from '../images/memory Game.png';
+import construcao from '../images/construcao.jpeg';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import '../styles/Projects.css';
@@ -22,8 +24,18 @@ function Projects() {
           <img src={countdown} alt="Foto Apolo Wilker" />
           <p>COUNTDOWN-APP</p>
         </div>
-        <div className='card-projects'></div>
-        <div className='card-projects'></div>
+        <div className='card-projects'>
+          <img src={memorygame} alt='Foto do jogo' />
+          <p>MEMORY GAME</p>
+        </div>
+        <div className='card-projects'>
+          <img src={construcao} alt="" />
+          <p>REACT-TODO-LIST</p>
+        </div>
+        <div className='card-projects'>
+          <img src={construcao} alt="FULL-SATACK APLICATION" />
+          <p>MEMORY-GAME-2.0</p>
+        </div>
 
       </div>
     </div>
