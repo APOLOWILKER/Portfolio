@@ -1,0 +1,13 @@
+.text-title {
+  color: var(--green);
+  text-align: center;
+}
+
+.container-tecnologias-screen {
+  background-color: var(--cod-gray);
+  top: 150px;
+  position: relative;
+  padding-top: 4rem;
+  min-height: 75vh;
+  border-radius: 40px 40px 0 0;
+}

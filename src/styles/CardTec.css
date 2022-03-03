@@ -1,37 +1,27 @@
-.container-img-lines {
-  border: 2px solid purple;
-}
-
-.container-first-line, .container-second-line {
+.container-cards {
   display: flex;
   flex-wrap: wrap;
+  width: 80%;
+  margin: 1rem auto;
+  margin-bottom: 190px;
   justify-content: center;
-  padding: 1rem;
+  align-items: center;
+  padding-bottom: 100px;
 }
 
-.style-img {
-  padding: 0.3rem;
-}
-
-.container {
+.card-img-tec {
+  background: white;
   display: flex;
-  position: relative;
+  padding: 8px;
+  margin: 20px;
+  border-radius: 20px;
+  width: 75px;
+  height: 75px;
+  box-shadow: 12px 11px 24px 2px rgba(0,0,0,0.69) ;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
 }
 
-.show {
-  position: absolute;
-  color: #f1f1f1;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-  /* position: absolute; */
-}
-
-.title-style-card {
-  color: #f1f1f1;
-  position: relative;
+.card-img-tec:hover {
+  transform: scale(1.1) ;
 }

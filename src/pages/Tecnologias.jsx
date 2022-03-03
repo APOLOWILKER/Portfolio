@@ -1,13 +1,18 @@
 import React from 'react';
+import CardTec from '../components/CardTec';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import '../styles/Tecnologias.css'
 
 
 function About() {
   return ( 
     <>
     <Header />
-    <h1>SOBRE MIM</h1>
+    <div className="container-tecnologias-screen">
+      <h1 className="text-title">TECNOLOGIAS</h1>
+      <CardTec/>
+    </div>
     <Footer />
     </>
   );

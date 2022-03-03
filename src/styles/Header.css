@@ -2,8 +2,8 @@
   align-content: center;
   align-items: center;
   display: flex;
-  background-color: rgb(242, 174, 58);
-  height: 3rem;
+  background-color: #7f59e4;
+  height: 4rem;
   justify-content: center;
   width: 100%;
   border-radius: 0 0 40px 40px;
@@ -12,11 +12,11 @@
 
 .list-container-header {
   display: flex;
-  color: rgb(44, 82, 136);
+  
 }
 
 .item-header {
-  color: rgb(44, 82, 136);
+  color: var(--white);
   text-decoration: none;
   padding: 0 1rem;
   font-weight: bolder;
