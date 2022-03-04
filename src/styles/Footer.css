@@ -7,9 +7,11 @@
   position: fixed;
   width: 100vw;
   bottom:0;
-  padding: 0.5rem;
+  left: auto;
+  right: auto;
+  padding: 0.5rem 0;
   height: 4rem;
-  border-radius: 40px 40px 0 0;
+  /* border-radius: 40px 40px 0 0; */
 }
 
 .list-container {
@@ -17,8 +19,4 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
-}
-
-.item-footer {
-  margin: 0.3rem;
 }
