@@ -11,21 +11,13 @@
 .foto-perfil {
   display: flex;
   justify-content: center;
-  padding: 1rem;
 }
 
 .container-pages {
-  background-color: var(--cod-gray);
   top: 150px;
   position: relative;
   padding-top: 4rem;
-  height: 70vh;
-  /* border-radius: 40px 40px 0 0; */
-}
-
-.position-itens {
-  margin-top: -125px ;
-
+  height: 100vh;
 }
 
 .description-text {
