@@ -1,8 +1,8 @@
 .container-pages {
   top: 150px;
-  /* position: relative; */
   padding-top: 4rem;
-  height: 70vh;
+  min-height: 80vh;
+  margin-bottom: 200px;
 }
 
 .container-title {
